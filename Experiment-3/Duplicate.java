@@ -1,0 +1,22 @@
+import java.util.*;
+class Duplicate
+{
+   public static void main(String args[])
+   {
+     int n,i,j;
+System.out.println("Enter the numbers to be store in the array");
+Scanner sc=new Scanner(System.in);
+n=sc.nextInt();
+int arr1[]=new int[n];
+System.out.println("Enter the numbers:");
+for(i=0;i<n;i++)
+{
+   arr1[i]=sc.nextInt();
+}
+int arr2[]=arr1;
+for(i=0;i<n;i++)
+{
+   System.out.println(arr2[i] +",");
+}
+}
+}
