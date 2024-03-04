@@ -1,0 +1,14 @@
+class Number3
+{
+    public ststic void main(String args[])
+    {
+        int n,i=0,b=1;
+        n=Integer.parseInt(args[0]);
+        System.out.println("Fiboncci series is: ");
+        while(j<=n)
+        {
+            System.out.println(b+ " ");
+            b=a+(a=b);
+        }
+    }
+}
